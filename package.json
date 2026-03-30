@@ -1,0 +1,16 @@
+{
+  "name": "linkedin-bot",
+  "version": "1.0.0",
+  "description": "Local LinkedIn bot that turns Google Trends + news into viral AI construction tech posts with carousel images.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "docx": "^9.5.1",
+    "google-trends-api": "^4.9.2",
+    "openai": "^4.104.0",
+    "rss-parser": "^3.13.0"
+  }
+}
